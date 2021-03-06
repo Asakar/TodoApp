@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
 </head>
 <body>
-
+    <main>
+        <content>
+            <h2> Login here
+            </h2>
+            <form action="home.html" method="get">
+                <label for="email">user name</label>
+                <input type="email" id="email" name="userName" placeholder="Email address"><br><br>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" value="Submit"><br>
+                <a href="accounts/password/reset.html">Forgot password</a>
+            </form>
+        </content>
+        <content>
+            <p>Don't have a account<a href="accounts/sign-up">sign-up</a></p>
+        </content>
+    </main>
 </body>
 </html>
