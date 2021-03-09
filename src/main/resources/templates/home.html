@@ -7,6 +7,24 @@
     <title>Home Page</title>
 </head>
 <body>
-    <h1>hey</h1>
+    <main>
+        <section class="top-container">
+            <a href="ViewToDoLists.html"> View all to do lists</a>
+            <input type="text" id="card header title" placeholder="Title"></input>
+            <input type="date" id="Date"></input>
+        </section>
+        <section class="middle-container"><br>
+        </section>
+        <section class="Add item">
+            <form id="addNewItem">
+                <label for="newItem">Enter a new to do task</label>
+                <input id="newItem" type="text" size="40"
+                       autocomplete="off" placeholder="Add items"
+                       tabindex="0"/>
+                <button id="add tasks to list" title="add item"
+                        aria-label="Add new item to list">+</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
